@@ -96,3 +96,191 @@ node_modules/
 tmpRider/
 
 # end of file
+
+# ----- Flutter / Dart -----
+# Generic
+.dart_tool/
+.pub/
+.pub-cache/
+.packages
+.flutter-plugins
+.flutter-plugins-dependencies
+.flutter-plugins-dependencies
+build/
+
+# Flutter generated files
+**/GeneratedPluginRegistrant.*
+**/flutter_export_environment.sh
+
+# Android
+android/.gradle/
+android/.idea/
+android/local.properties
+**/android/**/build/
+**/android/**/app/**/build/
+/.gradle
+
+# iOS / Xcode
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework/
+ios/Flutter/Flutter.podspec
+ios/Flutter/ephemeral/
+ios/Runner.xcworkspace/
+*.xcuserstate
+*.xcworkspace
+*.xcuserdata
+DerivedData/
+
+# macOS
+macos/Flutter/ephemeral/
+macos/Pods/
+**/build/macos/Build/Products/
+
+# Windows
+windows/flutter/ephemeral/
+**/build/windows/**
+
+# Linux
+linux/flutter/ephemeral/
+**/build/linux/**
+
+# IDEs
+.idea/
+*.iml
+.vscode/
+
+# Flutter test outputs
+coverage/
+
+# .gitignore for .NET projects (Visual Studio, dotnet, IDEs, OS)
+
+# -----------------------------
+# Generic recursive ignores (match at any nesting level)
+# -----------------------------
+**/bin/
+**/obj/
+**/build/
+**/.dart_tool/
+**/.pub/
+**/.pub-cache/
+**/.gradle/
+**/local.properties
+**/gradle-wrapper.jar
+gradlew
+gradlew.bat
+
+# IDEs / editor
+**/.vscode/
+**/.idea/
+**/*.iml
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual Studio / .NET
+.vs/
+publish/
+artifacts/
+*.dll
+*.exe
+*.app
+*.appx
+*.msi
+*.nupkg
+TestResults/
+.nuget/
+project.lock.json
+project.fragment.lock.json
+project.assets.json
+
+# Logs, caches, misc
+*.log
+*.cache
+*.vsix
+coverage/
+*.trx
+*.coverage
+*.coveragexml
+packages/
+node_modules/
+tmpRider/
+
+# JetBrains / Rider
+*.DotSettings.user
+
+# ReSharper
+_ReSharper*/
+
+# Publish and deployment
+*.Publish.xml
+*.azurePubxml
+
+# ASP.NET
+ScaffoldingReadMe.txt
+wwwroot/node_modules/
+
+# Entity Framework
+Migrations/Files/
+
+# Secret manager
+secrets.json
+
+# Certificates
+*.pfx
+*.p12
+*.cer
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# -----------------------------
+# Flutter / Dart / Mobile specific
+# -----------------------------
+# Flutter generated files
+**/GeneratedPluginRegistrant.*
+**/flutter_export_environment.sh
+
+# Android
+**/android/.gradle/
+**/android/.idea/
+**/android/local.properties
+**/android/**/build/
+**/android/**/app/**/build/
+**/gradle/wrapper/gradle-wrapper.jar
+
+# iOS / Xcode
+**/ios/Pods/
+**/ios/.symlinks/
+**/ios/Flutter/Flutter.framework/
+**/ios/Flutter/Flutter.podspec
+**/ios/Flutter/ephemeral/
+**/ios/Runner.xcworkspace/
+*.xcuserstate
+*.xcworkspace
+*.xcuserdata
+DerivedData/
+
+# macOS
+**/macos/Flutter/ephemeral/
+**/macos/Pods/
+**/build/macos/Build/Products/
+
+# Windows
+**/windows/flutter/ephemeral/
+**/build/windows/**
+
+# Linux
+**/linux/flutter/ephemeral/
+**/build/linux/**
+
+# Flutter test outputs
+coverage/
+
+# Optional: keep pubspec.lock for apps but not for packages
+# If you want to ignore pubspec.lock (for package libraries) uncomment the following line:
+# pubspec.lock
