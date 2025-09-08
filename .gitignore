@@ -1,0 +1,98 @@
+# .gitignore for .NET projects (Visual Studio, dotnet, IDEs, OS)
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build Folders
+[Bb]in/
+[Oo]bj/
+**/bin/
+**/obj/
+
+# Build results
+publish/
+artifacts/
+*.dll
+*.exe
+*.app
+*.appx
+*.msi
+*.nupkg
+
+# Logs
+*.log
+TestResults/
+
+# NuGet
+*.nupkg
+packages/
+.nuget/
+project.lock.json
+project.fragment.lock.json
+project.assets.json
+
+# Visual Studio Code
+.vscode/
+.history/
+
+# Rider/JetBrains
+.idea/
+*.sln.iml
+
+# ReSharper
+_ReSharper*/
+*.DotSettings.user
+
+# User-specific files
+*.user
+*.userprefs
+*.rsuser
+*.suo
+*.userosscache
+
+# Publish and deployment
+*.Publish.xml
+*.azurePubxml
+
+# ASP.NET
+ScaffoldingReadMe.txt
+wwwroot/node_modules/
+
+# Entity Framework
+Migrations/Files/
+
+# Secret manager
+secrets.json
+
+# Certificates
+*.pfx
+*.p12
+*.cer
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Test and coverage
+*.trx
+*.coverage
+*.coveragexml
+coverage/
+
+# Misc
+*.cache
+*.vsix
+
+# npm / node (if used in the project)
+node_modules/
+
+# JetBrains Rider caches
+tmpRider/
+
+# end of file
